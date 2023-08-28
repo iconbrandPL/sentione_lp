@@ -1,0 +1,72 @@
+body {
+  -webkit-font-smoothing: antialiased;
+  font-family: "Open Sans", sans-serif;
+  font-size: 1rem;
+  font-weight: 300;
+  line-height: normal;
+  background: linear-gradient(180deg, #fff 0%, #f3f5f9 100%);
+  background-color: #f3f5f9;
+  background-repeat: no-repeat;
+  background-size: 100%;
+  color: $text-color;
+}
+
+h1,
+h2 {
+  font-weight: 400;
+}
+
+h1 {
+  font-size: 2rem;
+  line-height: 1.25;
+
+  @include media-breakpoint-up(2xl) {
+    font-size: 3rem;
+  }
+}
+
+h2 {
+  font-size: 1.5rem;
+  line-height: 1.5;
+
+  @include media-breakpoint-up(2xl) {
+    font-size: 1.875rem;
+  }
+}
+
+h3 {
+  font-size: 1.25rem;
+  font-weight: 300;
+  line-height: 1.5;
+
+  @include media-breakpoint-up(2xl) {
+    font-size: 1.5rem;
+  }
+}
+
+h4 {
+  font-size: 1rem;
+  font-weight: 400;
+
+  @include media-breakpoint-up(2xl) {
+    font-size: 1.125rem;
+  }
+}
+
+h5 {
+  font-size: 0.75rem;
+  font-weight: 400;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+
+  @include media-breakpoint-up(2xl) {
+    font-size: 0.875rem;
+  }
+}
+
+h6 {
+  font-size: 0.625rem;
+  font-weight: 400;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+}

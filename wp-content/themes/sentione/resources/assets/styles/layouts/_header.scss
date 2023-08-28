@@ -1,0 +1,23 @@
+.header {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  padding: 40px 0;
+  z-index: 99;
+
+  &__logo {
+    width: 100px;
+    height: auto;
+  }
+
+  .nav {
+    li {
+      @extend .nav-item;
+    }
+
+    a {
+      @extend .nav-link;
+    }
+  }
+}

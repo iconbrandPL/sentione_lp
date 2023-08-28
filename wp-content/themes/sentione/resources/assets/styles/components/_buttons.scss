@@ -1,0 +1,31 @@
+.btn {
+  font-size: 0.875rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  text-align: center;
+  line-height: normal;
+  letter-spacing: 0.25px;
+  padding: 17px 25px 18px 25px;
+  border-radius: 4px;
+
+  @include media-breakpoint-up(xl) {
+    padding: 17px 48px 18px 48px;
+  }
+
+  &-primary {
+    background-color: $primary;
+    color: $white;
+    box-shadow: 0 23px 23px -13px rgba(48, 95, 150, 0.23);
+
+    &:hover {
+      color: $white;
+    }
+
+    &:active,
+    &:focus {
+      box-shadow: none !important;
+      outline: none;
+      color: $white;
+    }
+  }
+}

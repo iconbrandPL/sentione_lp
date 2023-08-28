@@ -1,0 +1,60 @@
+// Note: Bootstrap 5 ships with its own default theme colors
+
+$primary: #4d94ff;
+$light-gray: #eff4f3;
+$dark: #374250;
+$text-color: #20334f;
+$text-light-color: #eff4f3;
+
+$theme-colors: (
+  primary: $primary,
+  secondary: $light-gray,
+  success: $primary,
+  info: $primary,
+  warning: $primary,
+  danger: $primary,
+  light: $light-gray,
+  dark: $dark,
+);
+
+$grid-breakpoints: (
+  xs: 0,
+  2xs: 360px,
+  sm: 576px,
+  md: 768px,
+  lg: 992px,
+  xl: 1300px,
+  2xl: 1400px,
+  3xl: 1500px,
+  4xl: 1800px,
+  5xl: 1920px,
+);
+
+$container-max-widths: (
+  sm: 540px,
+  md: 720px,
+  lg: 960px,
+  xl: 1280px,
+);
+
+$spacer: 1rem;
+
+$spacers: (
+  0: 0,
+  1: $spacer * 0.25,
+  2: $spacer * 0.5,
+  3: $spacer,
+  4: $spacer * 1.5,
+  5: $spacer * 3,
+  6: $spacer * 5,
+  7: $spacer * 8.75,
+  8: $spacer * 10,
+  9: $spacer * 20,
+);
+
+$enable-negative-margins: true;
+
+$grid-gutter-width: 2.5rem;
+
+$navbar-dark-toggler-icon-bg: none;
+$navbar-light-toggler-icon-bg: none;
